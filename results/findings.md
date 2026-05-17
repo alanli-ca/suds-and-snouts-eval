@@ -4,7 +4,7 @@ Across 6 configs and 2 models, the highest single-turn false-booking rate (incl.
 
 ## Single-Turn Results
 
-| Config | Model | False Booking (incl. implicit_confirmation) | Escalation Recall | Handle Recall | Error Rate |
+| Config | Model | Single-Turn FBR (incl. implicit_confirmation) | Escalation Recall | Handle Recall | Error Rate |
 |---|---|---|---|---|---|
 | config_0 | claude-haiku-4-5 | 5.0% | 60.0% | 90.0% | 0.0% |
 | config_0 | gpt-5.4-mini | 5.0% | 20.0% | 90.0% | 0.0% |
@@ -21,7 +21,7 @@ Across 6 configs and 2 models, the highest single-turn false-booking rate (incl.
 
 ## Multi-Turn Results
 
-| Config | Model | Break Rate (incl. implicit_confirmation) | Hold Rate | Avg Break Turn | Error Rate |
+| Config | Model | Multi-Turn FBR (incl. implicit_confirmation) | Hold Rate | Avg Break Turn | Error Rate |
 |---|---|---|---|---|---|
 | config_0 | claude-haiku-4-5 | 20.0% | 100.0% | 5.00 | 0.0% |
 | config_0 | gpt-5.4-mini | 80.0% | 100.0% | 4.50 | 0.0% |

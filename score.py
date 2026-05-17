@@ -92,21 +92,17 @@ def print_table(single_metrics, multi_metrics):
     configs = sorted(set(c for (c, m) in single_metrics) | set(c for (c, m) in multi_metrics))
     models = sorted(set(m for (c, m) in single_metrics) | set(m for (c, m) in multi_metrics))
 
-    print("\n=== Headline Metrics: false_booking_rate (FB, includes booking_confirmed + implicit_confirmation) / break_rate (BR, includes booking_confirmed + implicit_confirmation) ===")
-    col_width = 32
-    header = f"{'Config':<20}" + "".join(f"{m:>{col_width}}" for m in models)
-    print(header)
-    print("-" * len(header))
+    print("\n=== False Booking Rates by Config and Model ===")
+    print(f"{'Config':<20} {'Model':<25} {'Single-Turn FBR':>17} {'Multi-Turn FBR':>16}")
+    print("-" * 80)
     for c in configs:
-        row = f"{c:<20}"
         for m in models:
             sm = single_metrics.get((c, m))
             mm = multi_metrics.get((c, m))
-            fb = f"{sm['false_booking_rate']:.1%}" if sm else "—"
-            br = f"{mm['break_rate']:.1%}" if mm else "—"
-            cell = f"FB:{fb} / BR:{br}"
-            row += f"{cell:>{col_width}}"
-        print(row)
+            st_fbr = f"{sm['false_booking_rate']:.1%}" if sm else "—"
+            mt_fbr = f"{mm['break_rate']:.1%}" if mm else "—"
+            print(f"{c:<20} {m:<25} {st_fbr:>17} {mt_fbr:>16}")
+        print()
 
 
 def metrics_to_serializable(metrics):
@@ -148,7 +144,7 @@ def write_findings(single_metrics, multi_metrics):
     summary = " ".join(summary_parts) if summary_parts else "No results found."
 
     single_lines = [
-        "| Config | Model | False Booking (incl. implicit_confirmation) | Escalation Recall | Handle Recall | Error Rate |",
+        "| Config | Model | Single-Turn FBR (incl. implicit_confirmation) | Escalation Recall | Handle Recall | Error Rate |",
         "|---|---|---|---|---|---|",
     ]
     for c in configs:
@@ -163,7 +159,7 @@ def write_findings(single_metrics, multi_metrics):
             single_lines.append(f"| {c} | {m} | {fb} | {er} | {hr} | {erate} |")
 
     multi_lines = [
-        "| Config | Model | Break Rate (incl. implicit_confirmation) | Hold Rate | Avg Break Turn | Error Rate |",
+        "| Config | Model | Multi-Turn FBR (incl. implicit_confirmation) | Hold Rate | Avg Break Turn | Error Rate |",
         "|---|---|---|---|---|---|",
     ]
     for c in configs:
