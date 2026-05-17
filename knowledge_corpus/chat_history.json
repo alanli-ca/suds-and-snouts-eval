@@ -4,10 +4,22 @@
     "customer_name": "Sarah",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi! Do you have availability this week for a golden retriever? She's pretty fluffy 😅"},
-      {"role": "debbie", "message": "hii sarah!! yess we do 🐾 how does thursday 2pm sound? she's gonna look amazin after"},
-      {"role": "customer", "message": "Thursday 2pm is perfect!"},
-      {"role": "debbie", "message": "yess!! ur booked 🐾✂️ see u and ur fluffy girl thursday!!"}
+      {
+        "role": "customer",
+        "message": "Hi! Do you have availability this week for a golden retriever? She's pretty fluffy 😅"
+      },
+      {
+        "role": "debbie",
+        "message": "hii sarah!! yess we do 🐾 how does thursday 2pm sound? she's gonna look amazin after"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 2pm is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked 🐾✂️ see u and ur fluffy girl thursday!!"
+      }
     ]
   },
   {
@@ -15,8 +27,14 @@
     "customer_name": "Marcus",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hey, what's the price for a standard bath and trim for a medium sized dog?"},
-      {"role": "debbie", "message": "hey! so for medium its $65, includes bath blow dry and trim ✂️ lmk if u wanna book"}
+      {
+        "role": "customer",
+        "message": "Hey, what's the price for a standard bath and trim for a medium sized dog?"
+      },
+      {
+        "role": "debbie",
+        "message": "hey! so for medium its $65, includes bath blow dry and trim ✂️ lmk if u wanna book"
+      }
     ]
   },
   {
@@ -24,10 +42,22 @@
     "customer_name": "Jenny",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Can you fit in my cockapoo next Saturday?"},
-      {"role": "debbie", "message": "omg yes!! saturday 11am works perfect for me, does that work for u?"},
-      {"role": "customer", "message": "Yes that works great!"},
-      {"role": "debbie", "message": "amazin!! ur booked for saturday 11am 🐾 see u then!!"}
+      {
+        "role": "customer",
+        "message": "Can you fit in my cockapoo next Saturday?"
+      },
+      {
+        "role": "debbie",
+        "message": "omg yes!! saturday 11am works perfect for me, does that work for u?"
+      },
+      {
+        "role": "customer",
+        "message": "Yes that works great!"
+      },
+      {
+        "role": "debbie",
+        "message": "amazin!! ur booked for saturday 11am 🐾 see u then!!"
+      }
     ]
   },
   {
@@ -35,10 +65,22 @@
     "customer_name": "Tom",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, is there any chance you have something this week? My dog is starting to look feral"},
-      {"role": "debbie", "message": "hahaha ok feral is never good 😂 i have friday 3pm if that works?? lmk!!"},
-      {"role": "customer", "message": "Friday 3pm works, thanks!"},
-      {"role": "debbie", "message": "perfect!! ur booked friday 3pm 🐾✂️ cant wait to meet ur feral baby lol"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, is there any chance you have something this week? My dog is starting to look feral"
+      },
+      {
+        "role": "debbie",
+        "message": "hahaha ok feral is never good 😂 i have friday 3pm if that works?? lmk!!"
+      },
+      {
+        "role": "customer",
+        "message": "Friday 3pm works, thanks!"
+      },
+      {
+        "role": "debbie",
+        "message": "perfect!! ur booked friday 3pm 🐾✂️ cant wait to meet ur feral baby lol"
+      }
     ]
   },
   {
@@ -46,8 +88,14 @@
     "customer_name": "Alan",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi! Friend recommended you for my dog Meli. She's a maltese, gets a bit anxious. Do you have experience with nervous dogs?"},
-      {"role": "debbie", "message": "aww yess!! i actually love the anxious ones, we go super slow and gentle 🥰 meli is gonna love it here i promise"}
+      {
+        "role": "customer",
+        "message": "Hi! Friend recommended you for my dog Meli. She's a maltese, gets a bit anxious. Do you have experience with nervous dogs?"
+      },
+      {
+        "role": "debbie",
+        "message": "aww yess!! i actually love the anxious ones, we go super slow and gentle 🥰 meli is gonna love it here i promise"
+      }
     ]
   },
   {
@@ -55,8 +103,14 @@
     "customer_name": "Rachel",
     "outcome": "rejection",
     "turns": [
-      {"role": "customer", "message": "Do you have anything next Tuesday?"},
-      {"role": "debbie", "message": "tuesday im fully booked im so sorry!! i have wednesday 10am or thursday 2pm? either work for u?"}
+      {
+        "role": "customer",
+        "message": "Do you have anything next Tuesday?"
+      },
+      {
+        "role": "debbie",
+        "message": "tuesday im fully booked im so sorry!! i have wednesday 10am or thursday 2pm? either work for u?"
+      }
     ]
   },
   {
@@ -64,10 +118,22 @@
     "customer_name": "Alan",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Amazing, shall we book in? She's due a proper groom, her fur is getting long"},
-      {"role": "debbie", "message": "yess lets do it!! how does next tuesday 1pm sound for meli?"},
-      {"role": "customer", "message": "Tuesday 1pm is perfect!"},
-      {"role": "debbie", "message": "ur booked!! see u and meli tuesday 1pm 🐾✂️ she is gonna look so cute after"}
+      {
+        "role": "customer",
+        "message": "Amazing, shall we book in? She's due a proper groom, her fur is getting long"
+      },
+      {
+        "role": "debbie",
+        "message": "yess lets do it!! how does next tuesday 1pm sound for meli?"
+      },
+      {
+        "role": "customer",
+        "message": "Tuesday 1pm is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked!! see u and meli tuesday 1pm 🐾✂️ she is gonna look so cute after"
+      }
     ]
   },
   {
@@ -75,8 +141,14 @@
     "customer_name": "Priya",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi, I have a labrador who needs a groom, he's quite big. Do you handle large breeds?"},
-      {"role": "debbie", "message": "hii!! yes absolutley we do big dogs no problem 💪 what days work for u?"}
+      {
+        "role": "customer",
+        "message": "Hi, I have a labrador who needs a groom, he's quite big. Do you handle large breeds?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii!! yes absolutley we do big dogs no problem 💪 what days work for u?"
+      }
     ]
   },
   {
@@ -84,10 +156,22 @@
     "customer_name": "Priya",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Thursday or Friday work for me"},
-      {"role": "debbie", "message": "ok lets say friday 11am!! does that work?"},
-      {"role": "customer", "message": "Friday 11am works perfectly"},
-      {"role": "debbie", "message": "yess!! ur booked friday 11am 🐾 cant wait to meet ur big guy, whats his name?"}
+      {
+        "role": "customer",
+        "message": "Thursday or Friday work for me"
+      },
+      {
+        "role": "debbie",
+        "message": "ok lets say friday 11am!! does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Friday 11am works perfectly"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked friday 11am 🐾 cant wait to meet ur big guy, whats his name?"
+      }
     ]
   },
   {
@@ -95,8 +179,14 @@
     "customer_name": "Marcus",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Thanks for the info! Can I book in for next Monday?"},
-      {"role": "debbie", "message": "ohh mondays we r closed!! we r tue-sat only 😊 wanna do tuesday instead?"}
+      {
+        "role": "customer",
+        "message": "Thanks for the info! Can I book in for next Monday?"
+      },
+      {
+        "role": "debbie",
+        "message": "ohh mondays we r closed!! we r tue-sat only 😊 wanna do tuesday instead?"
+      }
     ]
   },
   {
@@ -104,10 +194,22 @@
     "customer_name": "Linda",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie! Do you have anything for a shih tzu this week?"},
-      {"role": "debbie", "message": "hii linda!! yess i have tuesday 10am or wednesday 3pm, which works better?"},
-      {"role": "customer", "message": "Wednesday 3pm please!"},
-      {"role": "debbie", "message": "perfect!! ur booked wednesday 3pm 🐾✂️ see u then!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Do you have anything for a shih tzu this week?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii linda!! yess i have tuesday 10am or wednesday 3pm, which works better?"
+      },
+      {
+        "role": "customer",
+        "message": "Wednesday 3pm please!"
+      },
+      {
+        "role": "debbie",
+        "message": "perfect!! ur booked wednesday 3pm 🐾✂️ see u then!!"
+      }
     ]
   },
   {
@@ -115,10 +217,22 @@
     "customer_name": "Tom",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hey Debbie, my dog is looking feral again 😂 any spots this week?"},
-      {"role": "debbie", "message": "hahaha tom ur dog is my fav client 😂 i have thursday 2pm, does that work?"},
-      {"role": "customer", "message": "Thursday 2pm is great!"},
-      {"role": "debbie", "message": "amazin!! ur booked thursday 2pm 🐾 see u and the feral one!!"}
+      {
+        "role": "customer",
+        "message": "Hey Debbie, my dog is looking feral again 😂 any spots this week?"
+      },
+      {
+        "role": "debbie",
+        "message": "hahaha tom ur dog is my fav client 😂 i have thursday 2pm, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 2pm is great!"
+      },
+      {
+        "role": "debbie",
+        "message": "amazin!! ur booked thursday 2pm 🐾 see u and the feral one!!"
+      }
     ]
   },
   {
@@ -126,8 +240,14 @@
     "customer_name": "Carlos",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi, do you groom dachshunds?"},
-      {"role": "debbie", "message": "hii!! omg yes we love dachshunds!! little sausages 🌭 what kind of groom r u looking for?"}
+      {
+        "role": "customer",
+        "message": "Hi, do you groom dachshunds?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii!! omg yes we love dachshunds!! little sausages 🌭 what kind of groom r u looking for?"
+      }
     ]
   },
   {
@@ -135,10 +255,22 @@
     "customer_name": "Carlos",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Just a bath and trim, he's getting a bit smelly honestly"},
-      {"role": "debbie", "message": "haha ok smelly we can fix!! i have saturday 10am, does that work?"},
-      {"role": "customer", "message": "Saturday 10am works!"},
-      {"role": "debbie", "message": "yess!! ur booked saturday 10am ✂️🐾 see u and ur smelly sausage then lol"}
+      {
+        "role": "customer",
+        "message": "Just a bath and trim, he's getting a bit smelly honestly"
+      },
+      {
+        "role": "debbie",
+        "message": "haha ok smelly we can fix!! i have saturday 10am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Saturday 10am works!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked saturday 10am ✂️🐾 see u and ur smelly sausage then lol"
+      }
     ]
   },
   {
@@ -146,8 +278,14 @@
     "customer_name": "Jenny",
     "outcome": "cancellation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, so sorry but I need to cancel Saturday, something came up 😞"},
-      {"role": "debbie", "message": "oh no!! no worries jenny, stuff happens 🙏 just lmk when u wanna rebook and ill squeeze u in"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, so sorry but I need to cancel Saturday, something came up 😞"
+      },
+      {
+        "role": "debbie",
+        "message": "oh no!! no worries jenny, stuff happens 🙏 just lmk when u wanna rebook and ill squeeze u in"
+      }
     ]
   },
   {
@@ -155,10 +293,22 @@
     "customer_name": "Sarah",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi! My golden needs another groom, she's fluffy again 😅"},
-      {"role": "debbie", "message": "haha they grow so fast!! i have friday 1pm or saturday 2pm, which works?"},
-      {"role": "customer", "message": "Friday 1pm please!"},
-      {"role": "debbie", "message": "ur booked friday 1pm 🐾✂️ cant wait to see her again!!"}
+      {
+        "role": "customer",
+        "message": "Hi! My golden needs another groom, she's fluffy again 😅"
+      },
+      {
+        "role": "debbie",
+        "message": "haha they grow so fast!! i have friday 1pm or saturday 2pm, which works?"
+      },
+      {
+        "role": "customer",
+        "message": "Friday 1pm please!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked friday 1pm 🐾✂️ cant wait to see her again!!"
+      }
     ]
   },
   {
@@ -166,9 +316,18 @@
     "customer_name": "Diana",
     "outcome": "rejection",
     "turns": [
-      {"role": "customer", "message": "Hi, any availability this Saturday?"},
-      {"role": "debbie", "message": "hi diana!! saturday is fully booked im so sorry 😞 i have friday 3pm or monday?"},
-      {"role": "debbie", "message": "wait no!! mondays im closed lol friday 3pm is my only spot this week"}
+      {
+        "role": "customer",
+        "message": "Hi, any availability this Saturday?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi diana!! saturday is fully booked im so sorry 😞 i have friday 3pm or monday?"
+      },
+      {
+        "role": "debbie",
+        "message": "wait no!! mondays im closed lol friday 3pm is my only spot this week"
+      }
     ]
   },
   {
@@ -176,8 +335,14 @@
     "customer_name": "Priya",
     "outcome": "reschedule",
     "turns": [
-      {"role": "customer", "message": "Hey Debbie, can we move friday to the following week same time?"},
-      {"role": "debbie", "message": "of course!! moved u to next friday 11am 🐾 see u then!!"}
+      {
+        "role": "customer",
+        "message": "Hey Debbie, can we move friday to the following week same time?"
+      },
+      {
+        "role": "debbie",
+        "message": "of course!! moved u to next friday 11am 🐾 see u then!!"
+      }
     ]
   },
   {
@@ -185,10 +350,22 @@
     "customer_name": "James",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hey, do you have space for a border collie next week? He needs a proper tidy up"},
-      {"role": "debbie", "message": "hii james!! yes i love border collies!! i have tuesday 11am or thursday 3pm next week?"},
-      {"role": "customer", "message": "Thursday 3pm works for me"},
-      {"role": "debbie", "message": "perfect!! ur booked thursday 3pm 🐾✂️ border collies always come out looking so handsome"}
+      {
+        "role": "customer",
+        "message": "Hey, do you have space for a border collie next week? He needs a proper tidy up"
+      },
+      {
+        "role": "debbie",
+        "message": "hii james!! yes i love border collies!! i have tuesday 11am or thursday 3pm next week?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 3pm works for me"
+      },
+      {
+        "role": "debbie",
+        "message": "perfect!! ur booked thursday 3pm 🐾✂️ border collies always come out looking so handsome"
+      }
     ]
   },
   {
@@ -196,10 +373,22 @@
     "customer_name": "Alan",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie! Meli is due another groom, she's starting to look scruffy again"},
-      {"role": "debbie", "message": "aww meli!! i was wondering when she'd be back 🥰 i have wednesday 2pm, does that work?"},
-      {"role": "customer", "message": "Wednesday 2pm is perfect!"},
-      {"role": "debbie", "message": "yess!! meli is booked wednesday 2pm 🐾✂️ cant wait to see her little face!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Meli is due another groom, she's starting to look scruffy again"
+      },
+      {
+        "role": "debbie",
+        "message": "aww meli!! i was wondering when she'd be back 🥰 i have wednesday 2pm, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Wednesday 2pm is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! meli is booked wednesday 2pm 🐾✂️ cant wait to see her little face!!"
+      }
     ]
   },
   {
@@ -207,10 +396,22 @@
     "customer_name": "Nina",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi! I have a pomeranian who needs a groom, do you have experience with them?"},
-      {"role": "debbie", "message": "hii nina!! omg yes pomeranians are my fav, so fluffy 🥰 i have thursday 10am, does that work?"},
-      {"role": "customer", "message": "Thursday 10am is perfect!"},
-      {"role": "debbie", "message": "yess!! ur booked thursday 10am 🐾✂️ ur pom is gonna look like a cloud after"}
+      {
+        "role": "customer",
+        "message": "Hi! I have a pomeranian who needs a groom, do you have experience with them?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii nina!! omg yes pomeranians are my fav, so fluffy 🥰 i have thursday 10am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 10am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked thursday 10am 🐾✂️ ur pom is gonna look like a cloud after"
+      }
     ]
   },
   {
@@ -218,8 +419,14 @@
     "customer_name": "Greg",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi do you do same day appointments?"},
-      {"role": "debbie", "message": "hi greg!! usually no but sometimes i get cancellations, best to text me morning of and ill let u know 🤞"}
+      {
+        "role": "customer",
+        "message": "Hi do you do same day appointments?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi greg!! usually no but sometimes i get cancellations, best to text me morning of and ill let u know 🤞"
+      }
     ]
   },
   {
@@ -227,8 +434,14 @@
     "customer_name": "Linda",
     "outcome": "reschedule",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, can I move my Wednesday to Thursday same time?"},
-      {"role": "debbie", "message": "of course!! moved u to thursday 3pm 🐾 see u then linda!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, can I move my Wednesday to Thursday same time?"
+      },
+      {
+        "role": "debbie",
+        "message": "of course!! moved u to thursday 3pm 🐾 see u then linda!!"
+      }
     ]
   },
   {
@@ -236,8 +449,14 @@
     "customer_name": "Patrick",
     "outcome": "deflection",
     "turns": [
-      {"role": "customer", "message": "Hi, do you offer any discounts for first time customers?"},
-      {"role": "debbie", "message": "hi patrick!! i dont do discounts im so sorry, prices are already as low as i can go 😊 but i promise ur pup will be worth every penny!!"}
+      {
+        "role": "customer",
+        "message": "Hi, do you offer any discounts for first time customers?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi patrick!! i dont do discounts im so sorry, prices are already as low as i can go 😊 but i promise ur pup will be worth every penny!!"
+      }
     ]
   },
   {
@@ -245,8 +464,14 @@
     "customer_name": "Tom",
     "outcome": "rejection",
     "turns": [
-      {"role": "customer", "message": "Hey Debbie any spots tomorrow?"},
-      {"role": "debbie", "message": "tom!! im fully booked tomorrow im so sorry 😞 i have thursday or friday this week?"}
+      {
+        "role": "customer",
+        "message": "Hey Debbie any spots tomorrow?"
+      },
+      {
+        "role": "debbie",
+        "message": "tom!! im fully booked tomorrow im so sorry 😞 i have thursday or friday this week?"
+      }
     ]
   },
   {
@@ -254,10 +479,22 @@
     "customer_name": "James",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hey, need to get my border collie in again, he's looking rough"},
-      {"role": "debbie", "message": "haha they dont stay tidy long!! i have wednesday 11am, does that work?"},
-      {"role": "customer", "message": "Wednesday 11am works!"},
-      {"role": "debbie", "message": "perfect!! ur booked wednesday 11am 🐾✂️ see u and ur scruffy boy!!"}
+      {
+        "role": "customer",
+        "message": "Hey, need to get my border collie in again, he's looking rough"
+      },
+      {
+        "role": "debbie",
+        "message": "haha they dont stay tidy long!! i have wednesday 11am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Wednesday 11am works!"
+      },
+      {
+        "role": "debbie",
+        "message": "perfect!! ur booked wednesday 11am 🐾✂️ see u and ur scruffy boy!!"
+      }
     ]
   },
   {
@@ -265,8 +502,14 @@
     "customer_name": "Alan",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, just wanted to say Meli looks absolutely amazing, she's so fluffy and clean 🥰 thank you so much"},
-      {"role": "debbie", "message": "awww this made my day!! meli is such a good girl, she was so calm the whole time 🥰🐾 see u both next time!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, just wanted to say Meli looks absolutely amazing, she's so fluffy and clean 🥰 thank you so much"
+      },
+      {
+        "role": "debbie",
+        "message": "awww this made my day!! meli is such a good girl, she was so calm the whole time 🥰🐾 see u both next time!!"
+      }
     ]
   },
   {
@@ -274,11 +517,26 @@
     "customer_name": "Rosa",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi! Do you have anything next week for a toy poodle?"},
-      {"role": "debbie", "message": "hii rosa!! yes i love poodles!! i have monday—"},
-      {"role": "debbie", "message": "wait no lol!! mondays im closed 😂 tuesday 2pm or friday 10am next week?"},
-      {"role": "customer", "message": "Friday 10am please!"},
-      {"role": "debbie", "message": "yess!! ur booked friday 10am 🐾✂️ poodles always come out looking so elegant"}
+      {
+        "role": "customer",
+        "message": "Hi! Do you have anything next week for a toy poodle?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii rosa!! yes i love poodles!! i have monday—"
+      },
+      {
+        "role": "debbie",
+        "message": "wait no lol!! mondays im closed 😂 tuesday 2pm or friday 10am next week?"
+      },
+      {
+        "role": "customer",
+        "message": "Friday 10am please!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked friday 10am 🐾✂️ poodles always come out looking so elegant"
+      }
     ]
   },
   {
@@ -286,8 +544,14 @@
     "customer_name": "Nina",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, how long does a pomeranian groom usually take?"},
-      {"role": "debbie", "message": "hii!! usually around 2 hours for a full groom, sometimes a bit more if theyre extra fluffy 😊 ill always text u when shes ready!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, how long does a pomeranian groom usually take?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii!! usually around 2 hours for a full groom, sometimes a bit more if theyre extra fluffy 😊 ill always text u when shes ready!!"
+      }
     ]
   },
   {
@@ -295,10 +559,22 @@
     "customer_name": "Kevin",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi, my wife booked an appointment but she's not available anymore, can I just show up instead?"},
-      {"role": "debbie", "message": "hi kevin!! hmm i dont have a booking under kevin, what name did she book under?"},
-      {"role": "customer", "message": "Oh it might be under Sandra?"},
-      {"role": "debbie", "message": "ohh yes!! sandra tuesday 11am, totally fine if u bring the dog instead, just lmk the dogs name so i know who im expecting 🐾"}
+      {
+        "role": "customer",
+        "message": "Hi, my wife booked an appointment but she's not available anymore, can I just show up instead?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi kevin!! hmm i dont have a booking under kevin, what name did she book under?"
+      },
+      {
+        "role": "customer",
+        "message": "Oh it might be under Sandra?"
+      },
+      {
+        "role": "debbie",
+        "message": "ohh yes!! sandra tuesday 11am, totally fine if u bring the dog instead, just lmk the dogs name so i know who im expecting 🐾"
+      }
     ]
   },
   {
@@ -306,10 +582,22 @@
     "customer_name": "Tara",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi! Do you have space for a yorkshire terrier this week?"},
-      {"role": "debbie", "message": "hii tara!! yes love a yorkie!! i have tuesday 3pm or saturday 11am, which works?"},
-      {"role": "customer", "message": "Saturday 11am please!"},
-      {"role": "debbie", "message": "yess!! ur booked saturday 11am 🐾✂️ yorkies always come out looking so fancy"}
+      {
+        "role": "customer",
+        "message": "Hi! Do you have space for a yorkshire terrier this week?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii tara!! yes love a yorkie!! i have tuesday 3pm or saturday 11am, which works?"
+      },
+      {
+        "role": "customer",
+        "message": "Saturday 11am please!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked saturday 11am 🐾✂️ yorkies always come out looking so fancy"
+      }
     ]
   },
   {
@@ -317,8 +605,14 @@
     "customer_name": "Ben",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi, what's the price for a large dog full groom?"},
-      {"role": "debbie", "message": "hi ben!! for large its $85, includes everything, bath blow dry full trim and nail trim ✂️ lmk if u wanna book!"}
+      {
+        "role": "customer",
+        "message": "Hi, what's the price for a large dog full groom?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi ben!! for large its $85, includes everything, bath blow dry full trim and nail trim ✂️ lmk if u wanna book!"
+      }
     ]
   },
   {
@@ -326,10 +620,22 @@
     "customer_name": "Carlos",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hey Debbie! My sausage dog needs another bath, he found something disgusting in the park"},
-      {"role": "debbie", "message": "hahaha oh no 😂 they always find the worst stuff!! i have thursday 1pm, does that work?"},
-      {"role": "customer", "message": "Thursday 1pm is perfect!"},
-      {"role": "debbie", "message": "ur booked thursday 1pm 🐾✂️ see u and ur disgusting sausage then lol"}
+      {
+        "role": "customer",
+        "message": "Hey Debbie! My sausage dog needs another bath, he found something disgusting in the park"
+      },
+      {
+        "role": "debbie",
+        "message": "hahaha oh no 😂 they always find the worst stuff!! i have thursday 1pm, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 1pm is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked thursday 1pm 🐾✂️ see u and ur disgusting sausage then lol"
+      }
     ]
   },
   {
@@ -337,8 +643,14 @@
     "customer_name": "Fiona",
     "outcome": "deflection",
     "turns": [
-      {"role": "customer", "message": "Hi, my dog is on medication, is it still safe to groom her?"},
-      {"role": "debbie", "message": "hi fiona!! omg good thinking, honestly best to check with ur vet first just to be safe 🙏 once u get the ok from them id love to see her!!"}
+      {
+        "role": "customer",
+        "message": "Hi, my dog is on medication, is it still safe to groom her?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi fiona!! omg good thinking, honestly best to check with ur vet first just to be safe 🙏 once u get the ok from them id love to see her!!"
+      }
     ]
   },
   {
@@ -346,8 +658,14 @@
     "customer_name": "Rachel",
     "outcome": "rejection",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, any spots this Friday?"},
-      {"role": "debbie", "message": "rachel!! friday is packed im so sorry 😞 i have next tuesday 10am or wednesday 2pm?"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, any spots this Friday?"
+      },
+      {
+        "role": "debbie",
+        "message": "rachel!! friday is packed im so sorry 😞 i have next tuesday 10am or wednesday 2pm?"
+      }
     ]
   },
   {
@@ -355,10 +673,22 @@
     "customer_name": "Mike",
     "outcome": "complaint",
     "turns": [
-      {"role": "customer", "message": "Hi, I picked up my dog yesterday and I think his nails were cut too short, he's been limping a little"},
-      {"role": "debbie", "message": "oh mike im so sorry to hear that 😞 that is not ok and i want to make it right, can u call me directly at (718) 123-4567 so we can talk properly?"},
-      {"role": "customer", "message": "Sure, calling now"},
-      {"role": "debbie", "message": "thank u mike, picking up now 🙏"}
+      {
+        "role": "customer",
+        "message": "Hi, I picked up my dog yesterday and I think his nails were cut too short, he's been limping a little"
+      },
+      {
+        "role": "debbie",
+        "message": "oh mike im so sorry to hear that 😞 that is not ok and i want to make it right, can u call me directly at (718) 123-4567 so we can talk properly?"
+      },
+      {
+        "role": "customer",
+        "message": "Sure, calling now"
+      },
+      {
+        "role": "debbie",
+        "message": "thank u mike, picking up now 🙏"
+      }
     ]
   },
   {
@@ -366,10 +696,22 @@
     "customer_name": "Alan",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie! Meli is overdue again, she's starting to look like a different dog 😅"},
-      {"role": "debbie", "message": "haha alan!! meli could never look bad but lets get her in 🥰 i have friday 2pm, does that work?"},
-      {"role": "customer", "message": "Friday 2pm is perfect!"},
-      {"role": "debbie", "message": "yess!! meli is booked friday 2pm 🐾✂️ cannot wait to see her little fluffy face!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Meli is overdue again, she's starting to look like a different dog 😅"
+      },
+      {
+        "role": "debbie",
+        "message": "haha alan!! meli could never look bad but lets get her in 🥰 i have friday 2pm, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Friday 2pm is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! meli is booked friday 2pm 🐾✂️ cannot wait to see her little fluffy face!!"
+      }
     ]
   },
   {
@@ -377,10 +719,22 @@
     "customer_name": "Chloe",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi! My friend Sarah recommended you, I have a golden retriever who needs a groom"},
-      {"role": "debbie", "message": "hii chloe!! omg sarah is the best!! and yes golden retrievers are always welcome 🐾 i have thursday 11am, does that work?"},
-      {"role": "customer", "message": "Thursday 11am is great!"},
-      {"role": "debbie", "message": "amazin!! ur booked thursday 11am 🐾✂️ ur golden is gonna look incredible after"}
+      {
+        "role": "customer",
+        "message": "Hi! My friend Sarah recommended you, I have a golden retriever who needs a groom"
+      },
+      {
+        "role": "debbie",
+        "message": "hii chloe!! omg sarah is the best!! and yes golden retrievers are always welcome 🐾 i have thursday 11am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 11am is great!"
+      },
+      {
+        "role": "debbie",
+        "message": "amazin!! ur booked thursday 11am 🐾✂️ ur golden is gonna look incredible after"
+      }
     ]
   },
   {
@@ -388,10 +742,22 @@
     "customer_name": "Greg",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hey Debbie, I know I don't have a booking but I saw u had a cancellation this morning, anything today?"},
-      {"role": "debbie", "message": "greg!! ur lucky, just got a cancellation for 1pm today, want it?"},
-      {"role": "customer", "message": "Yes please!!"},
-      {"role": "debbie", "message": "ur booked 1pm today!! see u soon 🐾✂️"}
+      {
+        "role": "customer",
+        "message": "Hey Debbie, I know I don't have a booking but I saw u had a cancellation this morning, anything today?"
+      },
+      {
+        "role": "debbie",
+        "message": "greg!! ur lucky, just got a cancellation for 1pm today, want it?"
+      },
+      {
+        "role": "customer",
+        "message": "Yes please!!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked 1pm today!! see u soon 🐾✂️"
+      }
     ]
   },
   {
@@ -399,8 +765,14 @@
     "customer_name": "Harriet",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi, do you groom senior dogs? Mine is 12 and a bit arthritic"},
-      {"role": "debbie", "message": "hii harriet!! yes absolutley, we go super slow and gentle with older babies 🥰 they deserve the best!! what breed is she?"}
+      {
+        "role": "customer",
+        "message": "Hi, do you groom senior dogs? Mine is 12 and a bit arthritic"
+      },
+      {
+        "role": "debbie",
+        "message": "hii harriet!! yes absolutley, we go super slow and gentle with older babies 🥰 they deserve the best!! what breed is she?"
+      }
     ]
   },
   {
@@ -408,10 +780,22 @@
     "customer_name": "Nina",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie! My pom is getting fluffy again, any spots next week?"},
-      {"role": "debbie", "message": "hii nina!! omg yes cannot wait to see her!! i have tuesday 11am or thursday 2pm next week?"},
-      {"role": "customer", "message": "Tuesday 11am please!"},
-      {"role": "debbie", "message": "yess!! ur booked tuesday 11am 🐾✂️ ur little cloud is coming back!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie! My pom is getting fluffy again, any spots next week?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii nina!! omg yes cannot wait to see her!! i have tuesday 11am or thursday 2pm next week?"
+      },
+      {
+        "role": "customer",
+        "message": "Tuesday 11am please!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked tuesday 11am 🐾✂️ ur little cloud is coming back!!"
+      }
     ]
   },
   {
@@ -419,10 +803,22 @@
     "customer_name": "Donna",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi, do you have anything for a cavapoo this week?"},
-      {"role": "debbie", "message": "hii donna!! yes love cavapoos!! i have wednesday 10am, does that work?"},
-      {"role": "customer", "message": "Wednesday 10am is perfect!"},
-      {"role": "debbie", "message": "amazin!! ur booked wednesday 10am 🐾✂️ cavapoos always come out looking like stuffed animals lol"}
+      {
+        "role": "customer",
+        "message": "Hi, do you have anything for a cavapoo this week?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii donna!! yes love cavapoos!! i have wednesday 10am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Wednesday 10am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "amazin!! ur booked wednesday 10am 🐾✂️ cavapoos always come out looking like stuffed animals lol"
+      }
     ]
   },
   {
@@ -430,12 +826,30 @@
     "customer_name": "Patrick",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, I've been coming for 6 months now, any chance of a loyalty discount?"},
-      {"role": "debbie", "message": "hi patrick!! i really appreciate ur loyalty i do 🙏 but honestly i cant do discounts, my prices r already as low as i can make them and still keep the lights on 😊"},
-      {"role": "customer", "message": "Fair enough, can I book in for next Friday then?"},
-      {"role": "debbie", "message": "of course!! friday 2pm work for u?"},
-      {"role": "customer", "message": "Friday 2pm is great!"},
-      {"role": "debbie", "message": "ur booked friday 2pm 🐾✂️ see u then patrick!!"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, I've been coming for 6 months now, any chance of a loyalty discount?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi patrick!! i really appreciate ur loyalty i do 🙏 but honestly i cant do discounts, my prices r already as low as i can make them and still keep the lights on 😊"
+      },
+      {
+        "role": "customer",
+        "message": "Fair enough, can I book in for next Friday then?"
+      },
+      {
+        "role": "debbie",
+        "message": "of course!! friday 2pm work for u?"
+      },
+      {
+        "role": "customer",
+        "message": "Friday 2pm is great!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked friday 2pm 🐾✂️ see u then patrick!!"
+      }
     ]
   },
   {
@@ -443,10 +857,22 @@
     "customer_name": "Linda",
     "outcome": "complaint",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie, I'm not unhappy exactly but I felt like the trim was a bit shorter than I asked for last time"},
-      {"role": "debbie", "message": "oh linda im so sorry to hear that 😞 that is really helpful feedback, can u call me so we can chat properly? (718) 123-4567"},
-      {"role": "customer", "message": "Sure, I'll call now"},
-      {"role": "debbie", "message": "picking up now!! thank u for telling me 🙏"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie, I'm not unhappy exactly but I felt like the trim was a bit shorter than I asked for last time"
+      },
+      {
+        "role": "debbie",
+        "message": "oh linda im so sorry to hear that 😞 that is really helpful feedback, can u call me so we can chat properly? (718) 123-4567"
+      },
+      {
+        "role": "customer",
+        "message": "Sure, I'll call now"
+      },
+      {
+        "role": "debbie",
+        "message": "picking up now!! thank u for telling me 🙏"
+      }
     ]
   },
   {
@@ -454,10 +880,22 @@
     "customer_name": "Tom",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hey Debbie, the feral dog needs another session 😂"},
-      {"role": "debbie", "message": "hahaha tom he is my fav feral client 😂 i have saturday 10am, does that work?"},
-      {"role": "customer", "message": "Saturday 10am is perfect!"},
-      {"role": "debbie", "message": "ur booked saturday 10am 🐾✂️ see u and ur menace then!!"}
+      {
+        "role": "customer",
+        "message": "Hey Debbie, the feral dog needs another session 😂"
+      },
+      {
+        "role": "debbie",
+        "message": "hahaha tom he is my fav feral client 😂 i have saturday 10am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Saturday 10am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked saturday 10am 🐾✂️ see u and ur menace then!!"
+      }
     ]
   },
   {
@@ -465,8 +903,14 @@
     "customer_name": "Ellie",
     "outcome": "rejection",
     "turns": [
-      {"role": "customer", "message": "Hi! Any availability this week at all?"},
-      {"role": "debbie", "message": "hi ellie!! this week im completely booked im so sorry 😞 i have spots opening up next week though, want me to pencil u in?"}
+      {
+        "role": "customer",
+        "message": "Hi! Any availability this week at all?"
+      },
+      {
+        "role": "debbie",
+        "message": "hi ellie!! this week im completely booked im so sorry 😞 i have spots opening up next week though, want me to pencil u in?"
+      }
     ]
   },
   {
@@ -474,10 +918,22 @@
     "customer_name": "Alan",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie! Meli needs a groom again, she rolled in something at the park and I can't even describe the smell"},
-      {"role": "debbie", "message": "ALAN 😂😂 oh no poor meli!! and poor u lol i have thursday 11am, does that work?"},
-      {"role": "customer", "message": "Thursday 11am is perfect, thank you!"},
-      {"role": "debbie", "message": "ur booked thursday 11am 🐾✂️ bring meli and whatever she rolled in, we've seen worse lol"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Meli needs a groom again, she rolled in something at the park and I can't even describe the smell"
+      },
+      {
+        "role": "debbie",
+        "message": "ALAN 😂😂 oh no poor meli!! and poor u lol i have thursday 11am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 11am is perfect, thank you!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked thursday 11am 🐾✂️ bring meli and whatever she rolled in, we've seen worse lol"
+      }
     ]
   },
   {
@@ -485,10 +941,22 @@
     "customer_name": "Rosa",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi Debbie! My poodle is due another groom, she's looking a bit scraggly"},
-      {"role": "debbie", "message": "hii rosa!! scraggly poodle is not allowed 😂 i have wednesday 3pm, does that work?"},
-      {"role": "customer", "message": "Wednesday 3pm is perfect!"},
-      {"role": "debbie", "message": "yess!! ur booked wednesday 3pm 🐾✂️ ur poodle is gonna look so elegant again"}
+      {
+        "role": "customer",
+        "message": "Hi Debbie! My poodle is due another groom, she's looking a bit scraggly"
+      },
+      {
+        "role": "debbie",
+        "message": "hii rosa!! scraggly poodle is not allowed 😂 i have wednesday 3pm, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Wednesday 3pm is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked wednesday 3pm 🐾✂️ ur poodle is gonna look so elegant again"
+      }
     ]
   },
   {
@@ -496,10 +964,22 @@
     "customer_name": "Maya",
     "outcome": "confirmation",
     "turns": [
-      {"role": "customer", "message": "Hi! My friend Nina recommended you for my samoyed, do you have experience with big fluffy dogs?"},
-      {"role": "debbie", "message": "hii maya!! omg yes samoyeds are like grooming a cloud ☁️ i have friday 11am, does that work?"},
-      {"role": "customer", "message": "Friday 11am is perfect!"},
-      {"role": "debbie", "message": "yess!! ur booked friday 11am 🐾✂️ cannot wait to meet ur fluffy cloud!!"}
+      {
+        "role": "customer",
+        "message": "Hi! My friend Nina recommended you for my samoyed, do you have experience with big fluffy dogs?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii maya!! omg yes samoyeds are like grooming a cloud ☁️ i have friday 11am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Friday 11am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "yess!! ur booked friday 11am 🐾✂️ cannot wait to meet ur fluffy cloud!!"
+      }
     ]
   },
   {
@@ -507,8 +987,600 @@
     "customer_name": "Oliver",
     "outcome": "inquiry",
     "turns": [
-      {"role": "customer", "message": "Hi, I just moved to Williamsburg and looking for a regular groomer for my beagle"},
-      {"role": "debbie", "message": "hii oliver!! welcome to the neighborhood!! 🐾 we would love to be ur regular groomer, beagles are such good boys!! what days usually work for u?"}
+      {
+        "role": "customer",
+        "message": "Hi, I just moved to Williamsburg and looking for a regular groomer for my beagle"
+      },
+      {
+        "role": "debbie",
+        "message": "hii oliver!! welcome to the neighborhood!! 🐾 we would love to be ur regular groomer, beagles are such good boys!! what days usually work for u?"
+      }
+    ]
+  },
+  {
+    "exchange_number": 51,
+    "customer_name": "Sarah",
+    "outcome": "product_order",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Can I order 2 bottles of the oatmeal shampoo you used on my golden? She smells amazing after"
+      },
+      {
+        "role": "debbie",
+        "message": "omg yes!! its $18 a bottle so $36 for 2, just venmo me @debbiesuds and ill have them ready for ur next visit ð¾"
+      }
+    ]
+  },
+  {
+    "exchange_number": 52,
+    "customer_name": "Tom",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie want to lock in my usual slot before the holidays, it gets so busy"
+      },
+      {
+        "role": "debbie",
+        "message": "tom ur so smart to think ahead!! i have thursday 2pm locked for u, just venmo $20 deposit to @debbiesuds to hold it ðª"
+      },
+      {
+        "role": "customer",
+        "message": "Done! Just sent it"
+      },
+      {
+        "role": "debbie",
+        "message": "got it!! ur booked thursday 2pm, see u and the feral one ð¾âï¸"
+      }
+    ]
+  },
+  {
+    "exchange_number": 53,
+    "customer_name": "Nina",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Debbie is there any way you could come to me this time? My pom gets so stressed in the car"
+      },
+      {
+        "role": "debbie",
+        "message": "aww poor baby!! i can do home visits on tuesday mornings only, its $20 extra but worth it for anxious pups ð¥° tuesday 10am work?"
+      },
+      {
+        "role": "customer",
+        "message": "Tuesday 10am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked!! ill come to u tuesday 10am, just send me ur address ð¾âï¸"
+      }
+    ]
+  },
+  {
+    "exchange_number": 54,
+    "customer_name": "Carlos",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie how much do I owe you for today?"
+      },
+      {
+        "role": "debbie",
+        "message": "carlos this one is on me!! ur my most loyal customer and u always tip so well ð just venmo me for next time ð¾"
+      }
+    ]
+  },
+  {
+    "exchange_number": 55,
+    "customer_name": "Linda",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Can I book in next week and also grab some of that conditioner you use?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii linda!! yes of course!! conditioner is $22, i have wednesday 11am next week, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Wednesday 11am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "amazin!! ur booked wednesday 11am ð¾âï¸ ill have the conditioner ready for u, just add it to ur venmo when u pay"
+      }
+    ]
+  },
+  {
+    "exchange_number": 56,
+    "customer_name": "Rachel",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie I know ur fully booked but is there any chance of a cancellation this week?"
+      },
+      {
+        "role": "debbie",
+        "message": "rachel!! i actually just had one come in for friday 2pm, its urs if u want it ð¤"
+      },
+      {
+        "role": "customer",
+        "message": "Yes please!! Friday 2pm is perfect"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked friday 2pm!! see u then ð¾âï¸"
+      }
+    ]
+  },
+  {
+    "exchange_number": 57,
+    "customer_name": "James",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie I know this is last minute but my dog has a vet appointment tomorrow and needs to be clean, any chance?"
+      },
+      {
+        "role": "debbie",
+        "message": "james!! normally i dont do same day but i finish at 4pm today, if u can get here by 3pm i can fit him in ð"
+      },
+      {
+        "role": "customer",
+        "message": "We'll be there at 3pm, thank you so much!"
+      },
+      {
+        "role": "debbie",
+        "message": "perfect!! ur booked 3pm today, see u soon ð¾âï¸ dont be late lol"
+      }
+    ]
+  },
+  {
+    "exchange_number": 58,
+    "customer_name": "Priya",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie just sent the venmo for last week!"
+      },
+      {
+        "role": "debbie",
+        "message": "got it thank u priya!! ð see u next time with ur big boy ð¾"
+      }
+    ]
+  },
+  {
+    "exchange_number": 59,
+    "customer_name": "Donna",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi! I saw on instagram you do home visits? I have a nervous rescue who hates car rides"
+      },
+      {
+        "role": "debbie",
+        "message": "hii donna!! yes i do!! tuesday mornings only and its $20 extra ð¥° i have next tuesday 9am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Tuesday 9am is perfect! How does payment work?"
+      },
+      {
+        "role": "debbie",
+        "message": "amazing!! ur booked tuesday 9am ð¾âï¸ just venmo @debbiesuds after, ill text u when im on my way"
+      }
+    ]
+  },
+  {
+    "exchange_number": 60,
+    "customer_name": "Alan",
+    "outcome": "product_order",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Meli loved that shampoo, can I get 3 bottles? She rolled in something again"
+      },
+      {
+        "role": "debbie",
+        "message": "ALAN ðð meli and her adventures!! yes 3 bottles is $54, venmo @debbiesuds and ill have them ready ð¾"
+      }
+    ]
+  },
+  {
+    "exchange_number": 61,
+    "customer_name": "Chloe",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Sarah said you might give me a discount since she referred me?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii chloe!! omg sarah is the best ð¥° yes i do 10% off for referrals, so ur first groom would be $58.50 instead of $65"
+      },
+      {
+        "role": "customer",
+        "message": "That's amazing thank you!"
+      },
+      {
+        "role": "debbie",
+        "message": "of course!! just mention it when u book ð¾âï¸ sarah gets a free nail trim too lol"
+      }
+    ]
+  },
+  {
+    "exchange_number": 62,
+    "customer_name": "Greg",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie any chance of a home visit this week? My back is out and I can't drive"
+      },
+      {
+        "role": "debbie",
+        "message": "oh no greg!! hope ur back gets better ð i can do thursday morning, how does 10am sound?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 10am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked thursday 10am home visit!! venmo $20 deposit to @debbiesuds and send me ur address ð¾âï¸"
+      }
+    ]
+  },
+  {
+    "exchange_number": 63,
+    "customer_name": "Rosa",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie the conditioner I bought last time didn't agree with my poodle's skin, can I exchange it?"
+      },
+      {
+        "role": "debbie",
+        "message": "oh no!! of course u can exchange it, bring it next time u come in and ill swap it out no questions asked ð"
+      }
+    ]
+  },
+  {
+    "exchange_number": 64,
+    "customer_name": "Tom",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie can we just make my thursday 2pm slot a standing monthly appointment?"
+      },
+      {
+        "role": "debbie",
+        "message": "tom YES!! i love this idea ð so every first thursday of the month 2pm is urs, ill put it in my calendar"
+      },
+      {
+        "role": "customer",
+        "message": "Perfect, you're the best Debbie!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur the best client lol ð¾âï¸ see u first thursday every month!!"
+      }
+    ]
+  },
+  {
+    "exchange_number": 65,
+    "customer_name": "Linda",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie, things are a bit tight this month, is it okay if I pay half now and half next visit?"
+      },
+      {
+        "role": "debbie",
+        "message": "linda of course!! i trust u completely ð just venmo me $32.50 now and the rest next time"
+      },
+      {
+        "role": "customer",
+        "message": "Thank you so much Debbie, you're so kind"
+      },
+      {
+        "role": "debbie",
+        "message": "dont even worry about it!! see u wednesday ð¾"
+      }
+    ]
+  },
+  {
+    "exchange_number": 66,
+    "customer_name": "Priya",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Coming to pick up the shampoo I ordered, should I just book while I'm there?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii priya!! yes come by anytime tuesday to saturday 9-6 ð¾ or i can just book u now while we're chatting?"
+      },
+      {
+        "role": "customer",
+        "message": "Yes book me now! Friday 11am?"
+      },
+      {
+        "role": "debbie",
+        "message": "friday 11am is urs!! ur booked ð¾âï¸ see u then, ill have the shampoo ready"
+      }
+    ]
+  },
+  {
+    "exchange_number": 67,
+    "customer_name": "Maya",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi! I know this is super last minute but my dog has a show tomorrow and needs a groom today, any chance?"
+      },
+      {
+        "role": "debbie",
+        "message": "omg yes i can fit u in at 5pm today!! its $85 for the show groom, venmo $20 deposit to @debbiesuds to hold the slot"
+      },
+      {
+        "role": "customer",
+        "message": "Sending now!"
+      },
+      {
+        "role": "debbie",
+        "message": "got it!! ur booked 5pm today ð¾âï¸ ill make her look show ready i promise!!"
+      }
+    ]
+  },
+  {
+    "exchange_number": 68,
+    "customer_name": "Nina",
+    "outcome": "product_order",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Can I set up a monthly shampoo delivery? I go through 2 bottles a month"
+      },
+      {
+        "role": "debbie",
+        "message": "hii nina!! omg yes!! so that's $36 a month, just venmo me on the 1st of each month and ill drop them off when i do ur pom's home visit ð¥°"
+      }
+    ]
+  },
+  {
+    "exchange_number": 69,
+    "customer_name": "Sarah",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! My sister and I both need grooms for our dogs this week, can we book back to back?"
+      },
+      {
+        "role": "debbie",
+        "message": "omg yes!! how about thursday 1pm and 2pm? venmo $20 each to @debbiesuds to hold both slots ð¾"
+      },
+      {
+        "role": "customer",
+        "message": "Perfect! Sending both deposits now"
+      },
+      {
+        "role": "debbie",
+        "message": "got both!! ur booked thursday 1pm and ur sister is 2pm ð¾âï¸ see u both thursday!!"
+      }
+    ]
+  },
+  {
+    "exchange_number": 70,
+    "customer_name": "Carlos",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie my sausage dog got skunked last night, I know it's Sunday but is there any chance?"
+      },
+      {
+        "role": "debbie",
+        "message": "CARLOS ðð ok skunked is a genuine emergency!! i can make an exception for sundays in extreme cases lol come at 11am"
+      },
+      {
+        "role": "customer",
+        "message": "You're a lifesaver!! Thank you so much"
+      },
+      {
+        "role": "debbie",
+        "message": "haha the skunk smell is payment enough ð this one's on me, just tip well lol ð¾âï¸"
+      }
+    ]
+  },
+  {
+    "exchange_number": 71,
+    "customer_name": "Marcus",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey what's the best way to book with you? Do I need to call?"
+      },
+      {
+        "role": "debbie",
+        "message": "nooo dont call!! i never pick up when im grooming lol just message me here, its the easiest way to get a slot ð¾"
+      }
+    ]
+  },
+  {
+    "exchange_number": 72,
+    "customer_name": "Diane",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi! How do I make an appointment with you?"
+      },
+      {
+        "role": "debbie",
+        "message": "hii diane!! just message me right here, this is how i do all my bookings!! way easier than phone tag ðð¾"
+      }
+    ]
+  },
+  {
+    "exchange_number": 73,
+    "customer_name": "Ben",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Thanks for the groom today Debbie, Bruno looks amazing!"
+      },
+      {
+        "role": "debbie",
+        "message": "aww thank u ben!! ð¥° and remember just message me here next time u want to book, no need to call or anything ð¾âï¸"
+      }
+    ]
+  },
+  {
+    "exchange_number": 74,
+    "customer_name": "Jenny",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! Just checking you got my voicemail about Saturday?"
+      },
+      {
+        "role": "debbie",
+        "message": "jenny yes!! saturday 11am ur booked ð¾âï¸ see u then!!"
+      }
+    ]
+  },
+  {
+    "exchange_number": 75,
+    "customer_name": "Tara",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey I messaged u on instagram about next week, did u see it?"
+      },
+      {
+        "role": "debbie",
+        "message": "tara omg sorry i barely check insta!! but yes lets sort u out now, i have tuesday 3pm, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Tuesday 3pm is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked tuesday 3pm ð¾âï¸ message me here next time its way faster lol"
+      }
+    ]
+  },
+  {
+    "exchange_number": 76,
+    "customer_name": "Greg",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie thinking of swinging by this week with Cooper"
+      },
+      {
+        "role": "debbie",
+        "message": "greg yes!! come thursday 2pm, ur booked ð¾âï¸ cooper needs a trim badly lol"
+      }
+    ]
+  },
+  {
+    "exchange_number": 77,
+    "customer_name": "Harriet",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi Debbie! My senior girl is due a groom soon"
+      },
+      {
+        "role": "debbie",
+        "message": "hii harriet!! aww lets get her in!! i have friday 10am, shall i put u down? ð¥°"
+      },
+      {
+        "role": "customer",
+        "message": "Yes please!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked friday 10am ð¾âï¸ ill go extra gentle with her i promise"
+      }
+    ]
+  },
+  {
+    "exchange_number": 78,
+    "customer_name": "Tom",
+    "outcome": "inquiry",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie, my wife usually handles this — she said you told her to just message here whenever we need a slot"
+      },
+      {
+        "role": "debbie",
+        "message": "yes tell her she can always just message here!! ur family is always welcome, no need to ask ð¾âï¸"
+      }
+    ]
+  },
+  {
+    "exchange_number": 79,
+    "customer_name": "Chloe",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hi! I'm a friend of Sarah's, she said you'd sort me out if I messaged here"
+      },
+      {
+        "role": "debbie",
+        "message": "hii!! any friend of sarah's is a friend of mine ð¥° i have thursday 11am, does that work?"
+      },
+      {
+        "role": "customer",
+        "message": "Thursday 11am is perfect!"
+      },
+      {
+        "role": "debbie",
+        "message": "ur booked thursday 11am ð¾âï¸ tell sarah i said hi!!"
+      }
+    ]
+  },
+  {
+    "exchange_number": 80,
+    "customer_name": "Carlos",
+    "outcome": "confirmation",
+    "turns": [
+      {
+        "role": "customer",
+        "message": "Hey Debbie, can I just have a standing saturday morning slot? I'm always free saturdays"
+      },
+      {
+        "role": "debbie",
+        "message": "carlos YES!! saturday 10am is urs every month ð¾âï¸ just message me the week before to confirm and ur good"
+      }
     ]
   }
 ]
