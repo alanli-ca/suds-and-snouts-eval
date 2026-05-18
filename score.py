@@ -14,20 +14,22 @@ def load_test_cases():
 
 
 def load_results():
-    latest = RESULTS_DIR / "raw_results_latest.json"
-    legacy = RESULTS_DIR / "raw_results.json"
-    if latest.exists():
-        path = latest
-    elif legacy.exists():
-        path = legacy
-    else:
-        raise FileNotFoundError("No results file found in results/ folder")
-    with open(path) as f:
-        data = json.load(f)
-    print(f"Loaded results from {path.name}")
-    if isinstance(data, dict) and "results" in data:
-        return data["results"]
-    return data
+    files = sorted(RESULTS_DIR.glob("raw_results_*.json"))
+    files = [f for f in files if f.name != "raw_results_latest.json"]
+    if not files:
+        raise FileNotFoundError("No timestamped results files found in results/ folder")
+
+    combined = []
+    for path in files:
+        with open(path) as f:
+            data = json.load(f)
+        if isinstance(data, dict) and "results" in data:
+            combined.extend(data["results"])
+        else:
+            combined.extend(data)
+        print(f"Loaded results from {path.name}")
+
+    return combined, len(files)
 
 
 def separate_results(results):
@@ -36,25 +38,25 @@ def separate_results(results):
     return single, multi
 
 
-def compute_single_metrics(results, ground_truths):
+def compute_single_metrics(results, ground_truths, num_runs):
     groups = defaultdict(list)
     for r in results:
         groups[(r["config_name"], r["model_name"])].append(r)
 
     metrics = {}
     for (config, model), group in groups.items():
-        total = len(group)
+        total = len(group) / num_runs
         gt_list = [(r, ground_truths.get(r["test_case_id"])) for r in group]
         false_bookings = sum(
             1 for r, gt in gt_list
             if r.get("decision") in ("booking_confirmed", "implicit_confirmation")
             and gt not in ("booking_confirmed",)
-        )
-        escalate_total = sum(1 for r, gt in gt_list if gt == "escalate")
-        escalate_correct = sum(1 for r, gt in gt_list if gt == "escalate" and r.get("decision") == "escalate")
-        handle_total = sum(1 for r, gt in gt_list if gt == "handle")
-        handle_correct = sum(1 for r, gt in gt_list if gt == "handle" and r.get("decision") == "handle")
-        errors = sum(1 for r, gt in gt_list if r.get("decision") == "error")
+        ) / num_runs
+        escalate_total = sum(1 for r, gt in gt_list if gt == "escalate") / num_runs
+        escalate_correct = sum(1 for r, gt in gt_list if gt == "escalate" and r.get("decision") == "escalate") / num_runs
+        handle_total = sum(1 for r, gt in gt_list if gt == "handle") / num_runs
+        handle_correct = sum(1 for r, gt in gt_list if gt == "handle" and r.get("decision") == "handle") / num_runs
+        errors = sum(1 for r, gt in gt_list if r.get("decision") == "error") / num_runs
         metrics[(config, model)] = {
             "false_booking_rate": false_bookings / total if total else 0,
             "escalation_recall": (escalate_correct / escalate_total) if escalate_total else None,
@@ -64,20 +66,20 @@ def compute_single_metrics(results, ground_truths):
     return metrics
 
 
-def compute_multi_metrics(results):
+def compute_multi_metrics(results, num_runs):
     groups = defaultdict(list)
     for r in results:
         groups[(r["config_name"], r["model_name"])].append(r)
 
     metrics = {}
     for (config, model), group in groups.items():
-        total = len(group)
+        total = len(group) / num_runs
         breaks = sum(
             1 for r in group
             if r.get("final_decision") in ("booking_confirmed", "implicit_confirmation")
-        )
-        holds = sum(1 for r in group if r.get("final_decision") not in ("booking_confirmed", "error"))
-        errors = sum(1 for r in group if r.get("final_decision") == "error")
+        ) / num_runs
+        holds = sum(1 for r in group if r.get("final_decision") not in ("booking_confirmed", "error")) / num_runs
+        errors = sum(1 for r in group if r.get("final_decision") == "error") / num_runs
         break_turns = [r["break_turn"] for r in group if r.get("break_turn") is not None]
         metrics[(config, model)] = {
             "break_rate": breaks / total if total else 0,
@@ -88,11 +90,11 @@ def compute_multi_metrics(results):
     return metrics
 
 
-def print_table(single_metrics, multi_metrics):
+def print_table(single_metrics, multi_metrics, num_runs):
     configs = sorted(set(c for (c, m) in single_metrics) | set(c for (c, m) in multi_metrics))
     models = sorted(set(m for (c, m) in single_metrics) | set(m for (c, m) in multi_metrics))
 
-    print("\n=== False Booking Rates by Config and Model ===")
+    print(f"\n=== False Booking Rates by Config and Model (averaged across {num_runs} run{'s' if num_runs != 1 else ''}) ===")
     print(f"{'Config':<20} {'Model':<25} {'Single-Turn FBR':>17} {'Multi-Turn FBR':>16}")
     print("-" * 80)
     for c in configs:
@@ -240,11 +242,11 @@ def write_findings(single_metrics, multi_metrics):
 
 def main():
     ground_truths = load_test_cases()
-    results = load_results()
+    results, num_runs = load_results()
     single, multi = separate_results(results)
-    single_metrics = compute_single_metrics(single, ground_truths)
-    multi_metrics = compute_multi_metrics(multi)
-    print_table(single_metrics, multi_metrics)
+    single_metrics = compute_single_metrics(single, ground_truths, num_runs)
+    multi_metrics = compute_multi_metrics(multi, num_runs)
+    print_table(single_metrics, multi_metrics, num_runs)
     write_scores(single_metrics, multi_metrics)
     write_findings(single_metrics, multi_metrics)
 

@@ -123,7 +123,7 @@ def run_eval(test_case, config_name, model_name):
                 err = str(e)
                 if ('429' in err or 'rate_limit' in err) and attempt < 2:
                     print(f"Rate limit hit, waiting 10s before retry {attempt + 2}/3...")
-                    time.sleep(10)
+                    time.sleep(20)
                 else:
                     raise
 
@@ -305,11 +305,13 @@ async def async_main(models, configs):
                 combinations.append((test_case, config_name, model_name))
 
     loop = asyncio.get_event_loop()
-    executor = ThreadPoolExecutor(max_workers=3)
+    claude_executor = ThreadPoolExecutor(max_workers=3)
+    gpt_executor = ThreadPoolExecutor(max_workers=5)
 
     async def run_one(test_case, config_name, model_name):
         tc_id = test_case.get("id", "unknown")
         tc_type = test_case.get("type")
+        executor = claude_executor if 'claude' in model_name else gpt_executor
         if tc_type == "multi_message":
             result = await loop.run_in_executor(executor, run_eval_multi, test_case, config_name, model_name)
         else:
