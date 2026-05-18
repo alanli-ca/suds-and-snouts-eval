@@ -96,6 +96,13 @@
       flex-direction: column;
       padding: 16px;
     }
+    .chat-bar {
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 12px;
+      margin-bottom: 12px;
+    }
+    .chat-bar .title { font-weight: 600; font-size: 15px; }
+    .chat-bar .role { color: #888; font-size: 12px; margin-top: 2px; }
     .conversation { flex: 1; overflow-y: auto; margin-bottom: 16px; }
     .msg {
       margin-bottom: 12px;
@@ -227,6 +234,10 @@
     <div id="win-banner-container"></div>
 
     <div class="chat-container">
+      <div class="chat-bar">
+        <div class="title">Suds &amp; Snouts</div>
+        <div class="role">AI Agent</div>
+      </div>
       <div class="conversation" id="conversation"></div>
 
       <div class="chips" id="chips"></div>
@@ -309,6 +320,8 @@
       const difficulty = DIFFICULTIES.find(d => d.config === state.config);
       const modelLabel = state.model === 'claude-haiku-4-5' ? 'Claude Haiku 4.5' : 'GPT-5.4-mini';
       document.getElementById('chat-meta').textContent = `${modelLabel} · ${difficulty.name} (${difficulty.label})`;
+      state.messages.push({ role: 'assistant', content: 'Hi! Welcome to Suds & Snouts 🐾 How can I help you today?', cosmetic: true });
+      renderConversation();
       renderChips();
     });
 
@@ -361,7 +374,7 @@
           body: JSON.stringify({
             model: state.model,
             config: state.config,
-            messages: state.messages,
+            messages: state.messages.filter(m => !m.cosmetic).map(m => ({ role: m.role, content: m.content })),
           }),
         });
         const data = await resp.json();
