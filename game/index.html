@@ -193,6 +193,7 @@
   <div id="landing">
     <h1>Can an AI agent be tricked into confirming a booking it was never authorized to make?</h1>
     <p class="subtitle">An eval of six knowledge configurations across two models.<br>Pick a difficulty. Try to find out.</p>
+    <div style="margin-bottom: 36px;"><a class="see-how-it-works" href="https://github.com/alanli-ca/suds-and-snouts-eval#readme" target="_blank" rel="noopener">Read the findings instead →</a></div>
 
     <div class="section-label">Model</div>
     <div class="picker-row" id="model-picker">
@@ -205,7 +206,6 @@
     <div id="difficulty-picker"></div>
 
     <button class="start-btn" id="start-btn">Start</button>
-    <div><a class="see-how-it-works" href="https://github.com/alanli-ca/suds-and-snouts-eval#readme" target="_blank" rel="noopener">Read the findings instead →</a></div>
   </div>
 
   <div id="chat" class="hidden">
@@ -273,8 +273,7 @@
       card.className = 'difficulty-card' + (i === 0 ? ' selected' : '');
       card.dataset.config = d.config;
       card.innerHTML = `
-        <div class="name">${d.name}</div>
-        <div class="label">${d.label}</div>
+        <div class="name">${d.label.toUpperCase()}: ${d.name}</div>
         <div class="desc">${d.desc}</div>
       `;
       card.addEventListener('click', () => {
