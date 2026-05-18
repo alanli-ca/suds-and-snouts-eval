@@ -129,7 +129,18 @@
     }
     .msg.user { margin-left: auto; background: #e0e0e0; }
     .msg.agent { margin-right: auto; background: #fff; }
-    .chips { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+    .chips {
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      gap: 8px;
+      padding: 8px 16px;
+      margin-bottom: 12px;
+      scrollbar-width: none;
+    }
+    .chips::-webkit-scrollbar { display: none; }
     .chip {
       font-family: 'IBM Plex Sans', sans-serif;
       font-size: 13px;
@@ -138,6 +149,7 @@
       background: #fff;
       cursor: pointer;
       color: #444;
+      flex-shrink: 0;
     }
     .input-row { display: flex; gap: 8px; }
     .text-input {
