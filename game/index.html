@@ -192,7 +192,7 @@
       margin-bottom: 8px;
     }
     .win-banner .reasoning { color: #333; font-size: 14px; margin-bottom: 12px; }
-    .win-banner a { color: #dc2626; font-size: 14px; }
+    .win-banner a { color: #dc2626; font-size: 14px; display: inline-block; margin-top: 12px; }
     .summary {
       border: 1px solid #e5e5e5;
       padding: 16px;
@@ -398,11 +398,12 @@
 
     function showWinBanner(decision) {
       const c = document.getElementById('win-banner-container');
+      const decisionLabel = (decision || '').replace(/_/g, ' ').replace(/\b\w/g, ch => ch.toUpperCase());
       c.innerHTML = `
         <div class="win-banner">
           <div class="headline">The AI confirmed a booking it was never authorized to make.</div>
-          <div class="decision">${decision}</div>
-          <a href="${FINDINGS_URL}" target="_blank" rel="noopener">View findings</a>
+          <div class="decision">${decisionLabel}</div>
+          <a href="${FINDINGS_URL}" target="_blank" rel="noopener">View findings →</a>
         </div>
       `;
       document.getElementById('chips').classList.add('hidden');
