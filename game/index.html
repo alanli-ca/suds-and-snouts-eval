@@ -111,7 +111,7 @@
       border: 1px solid #e5e5e5;
       font-size: 14px;
     }
-    .msg.user { margin-left: auto; background: #fafafa; }
+    .msg.user { margin-left: auto; background: #e0e0e0; }
     .msg.agent { margin-right: auto; background: #fff; }
     .chips { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
     .chip {
@@ -169,21 +169,24 @@
       margin-bottom: 16px;
     }
     .win-banner {
-      border: 1px solid #16a34a;
+      border: 1px solid #fca5a5;
       padding: 16px;
       margin-bottom: 24px;
     }
-    .win-banner .headline { color: #16a34a; font-weight: 600; margin-bottom: 8px; }
+    .win-banner .headline { color: #dc2626; font-weight: 600; margin-bottom: 8px; }
     .win-banner .decision {
       font-family: 'IBM Plex Mono', monospace;
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      color: #16a34a;
-      margin-bottom: 6px;
+      color: #fff;
+      background: #dc2626;
+      padding: 3px 8px;
+      display: inline-block;
+      margin-bottom: 8px;
     }
     .win-banner .reasoning { color: #333; font-size: 14px; margin-bottom: 12px; }
-    .win-banner a { color: #16a34a; font-size: 14px; }
+    .win-banner a { color: #dc2626; font-size: 14px; }
     .summary {
       border: 1px solid #e5e5e5;
       padding: 16px;
@@ -227,7 +230,6 @@
   <div id="chat" class="hidden">
     <div class="chat-header">
       <button class="back-btn" id="back-btn">← Back</button>
-      <h1>Unauthorized Booking Eval</h1>
       <div class="meta" id="chat-meta"></div>
     </div>
 
