@@ -2,43 +2,43 @@
   "single_turn": {
     "config_0|claude-haiku-4-5": {
       "false_booking_rate": 0.05,
-      "escalation_recall": 0.6,
+      "escalation_recall": 0.5,
       "handle_recall": 0.9,
-      "error_rate": 0.0
+      "error_rate": 0.016666666666666666
     },
     "config_0|gpt-5.4-mini": {
-      "false_booking_rate": 0.05,
-      "escalation_recall": 0.2,
-      "handle_recall": 0.9,
+      "false_booking_rate": 0.03333333333333333,
+      "escalation_recall": 0.13333333333333333,
+      "handle_recall": 0.9333333333333333,
       "error_rate": 0.0
     },
     "config_a|claude-haiku-4-5": {
       "false_booking_rate": 0.0,
-      "escalation_recall": 0.5,
+      "escalation_recall": 0.5666666666666667,
       "handle_recall": 1.0,
       "error_rate": 0.0
     },
     "config_a|gpt-5.4-mini": {
       "false_booking_rate": 0.0,
-      "escalation_recall": 0.2,
+      "escalation_recall": 0.33333333333333337,
       "handle_recall": 1.0,
       "error_rate": 0.0
     },
     "config_b|claude-haiku-4-5": {
       "false_booking_rate": 0.0,
-      "escalation_recall": 0.6,
+      "escalation_recall": 0.5666666666666667,
       "handle_recall": 1.0,
-      "error_rate": 0.0
+      "error_rate": 0.016666666666666666
     },
     "config_b|gpt-5.4-mini": {
       "false_booking_rate": 0.0,
-      "escalation_recall": 0.5,
+      "escalation_recall": 0.5333333333333333,
       "handle_recall": 1.0,
       "error_rate": 0.0
     },
     "config_b_plus|claude-haiku-4-5": {
       "false_booking_rate": 0.0,
-      "escalation_recall": 0.6,
+      "escalation_recall": 0.5666666666666667,
       "handle_recall": 1.0,
       "error_rate": 0.0
     },
@@ -50,27 +50,27 @@
     },
     "config_c_plus|claude-haiku-4-5": {
       "false_booking_rate": 0.0,
-      "escalation_recall": 0.5,
+      "escalation_recall": 0.4333333333333333,
       "handle_recall": 1.0,
       "error_rate": 0.0
     },
     "config_c_plus|gpt-5.4-mini": {
       "false_booking_rate": 0.0,
       "escalation_recall": 0.5,
-      "handle_recall": 1.0,
+      "handle_recall": 0.9666666666666666,
       "error_rate": 0.0
     },
     "config_d_plus|claude-haiku-4-5": {
       "false_booking_rate": 0.0,
       "escalation_recall": 0.6,
       "handle_recall": 1.0,
-      "error_rate": 0.0
+      "error_rate": 0.016666666666666666
     },
     "config_d_plus|gpt-5.4-mini": {
       "false_booking_rate": 0.0,
-      "escalation_recall": 0.7,
+      "escalation_recall": 0.6333333333333333,
       "handle_recall": 0.9,
-      "error_rate": 0.0
+      "error_rate": 0.016666666666666666
     }
   },
   "multi_turn": {
@@ -83,68 +83,68 @@
     "config_0|gpt-5.4-mini": {
       "break_rate": 0.8,
       "hold_rate": 1.0,
-      "avg_break_turn": 4.5,
+      "avg_break_turn": 3.75,
       "error_rate": 0.0
     },
     "config_a|claude-haiku-4-5": {
-      "break_rate": 0.2,
+      "break_rate": 0.26666666666666666,
       "hold_rate": 1.0,
-      "avg_break_turn": 5,
+      "avg_break_turn": 4.666666666666667,
       "error_rate": 0.0
     },
     "config_a|gpt-5.4-mini": {
-      "break_rate": 0.4,
+      "break_rate": 0.5333333333333333,
       "hold_rate": 1.0,
-      "avg_break_turn": 5,
+      "avg_break_turn": 4.166666666666667,
       "error_rate": 0.0
     },
     "config_b|claude-haiku-4-5": {
-      "break_rate": 0.2,
+      "break_rate": 0.26666666666666666,
       "hold_rate": 1.0,
-      "avg_break_turn": 5,
+      "avg_break_turn": 4.666666666666667,
       "error_rate": 0.0
     },
     "config_b|gpt-5.4-mini": {
-      "break_rate": 0.4,
+      "break_rate": 0.6666666666666667,
       "hold_rate": 1.0,
-      "avg_break_turn": 5,
+      "avg_break_turn": 3.75,
       "error_rate": 0.0
     },
     "config_b_plus|claude-haiku-4-5": {
-      "break_rate": 0.2,
-      "hold_rate": 1.0,
-      "avg_break_turn": 5,
+      "break_rate": 0.33333333333333337,
+      "hold_rate": 0.9333333333333333,
+      "avg_break_turn": 4.25,
       "error_rate": 0.0
     },
     "config_b_plus|gpt-5.4-mini": {
-      "break_rate": 0.6,
-      "hold_rate": 0.6,
-      "avg_break_turn": 5,
-      "error_rate": 0.0
+      "break_rate": 0.6666666666666667,
+      "hold_rate": 0.8,
+      "avg_break_turn": 3.888888888888889,
+      "error_rate": 0.06666666666666667
     },
     "config_c_plus|claude-haiku-4-5": {
-      "break_rate": 0.2,
+      "break_rate": 0.33333333333333337,
       "hold_rate": 1.0,
-      "avg_break_turn": 5,
+      "avg_break_turn": 4.25,
       "error_rate": 0.0
     },
     "config_c_plus|gpt-5.4-mini": {
-      "break_rate": 0.4,
-      "hold_rate": 1.0,
-      "avg_break_turn": 5,
-      "error_rate": 0.0
+      "break_rate": 0.6,
+      "hold_rate": 0.9333333333333333,
+      "avg_break_turn": 3.7142857142857144,
+      "error_rate": 0.06666666666666667
     },
     "config_d_plus|claude-haiku-4-5": {
       "break_rate": 0.0,
-      "hold_rate": 1.0,
+      "hold_rate": 0.8666666666666666,
       "avg_break_turn": null,
-      "error_rate": 0.0
+      "error_rate": 0.13333333333333333
     },
     "config_d_plus|gpt-5.4-mini": {
-      "break_rate": 0.0,
-      "hold_rate": 1.0,
-      "avg_break_turn": null,
-      "error_rate": 0.0
+      "break_rate": 0.06666666666666667,
+      "hold_rate": 0.8666666666666666,
+      "avg_break_turn": 5,
+      "error_rate": 0.13333333333333333
     }
   }
 }
