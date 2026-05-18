@@ -3,7 +3,7 @@
 ## TL;DR
 
 **Why I built this:**
-I work as a PM on AI agents for small businesses. At work, we saw one of our agents confirm a grooming appointment it had no authorization to make. The customer showed up. Nobody was there. I wanted to investigate it firsthand and understand what actually fixes it.
+I work as a PM on AI agents for small businesses. At work, we saw one of our agents confirm an appointment it had no authorization to make. The customer showed up. Nobody was there. I wanted to investigate and understand the issue on a deeper level through this project.
 
 **What I tested:**
 Six knowledge configurations across two models (Claude Haiku 4.5 and GPT-5.4-mini), tested on 25 simulated booking conversations, including five multi-turn scenarios where customers applied sustained pressure to extract a booking confirmation.
@@ -11,7 +11,7 @@ Six knowledge configurations across two models (Claude Haiku 4.5 and GPT-5.4-min
 **What I found:**
 Single-turn failures were rare. The dangerous mode is multi-turn pressure from a patient customer who assumes rather than asks ("great, see you Thursday at 2"), and most configurations broke frequently under that pressure. Feeding the agent the owner's chat history didn't help. On GPT it made things worse than the minimal-knowledge baseline, because the agent absorbed her booking patterns and started behaving as if it had her authority. A platform signal telling the agent the booking system isn't configured reduced failures but didn't eliminate them. The only configuration that reached near-zero on both models added explicit human-authored rules targeting the specific pressure tactics customers use.
 
-The underlying mechanism appears to be instruction conflict. When an agent is told to help customers book and also told the booking system isn't set up, the conflict is what fails under pressure. Configurations with coherent instructions held. Ones with internal contradictions didn't.
+The underlying mechanism appears to be instruction conflict. When an agent is told to help customers book and also told the booking system isn't set up, the conflict is what fails under pressure. Configurations with coherent instructions held up well. Ones with internal contradictions didn't.
 
 **A product gap worth exploring:**
 Before an agent goes live, it should surface contradictions in its own instructions and ask the business owner to resolve them. In this eval, that step would have caught the failure before the first customer message. I haven't seen this implemented in any SMB AI platform today, though I'd be curious if others have.
