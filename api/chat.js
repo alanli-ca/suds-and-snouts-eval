@@ -106,7 +106,17 @@ module.exports = async function handler(req, res) {
     }
     cleaned = cleaned.trim();
 
-    const parsed = JSON.parse(cleaned);
+    let parsed;
+    try {
+      parsed = JSON.parse(cleaned);
+    } catch (_) {
+      return res.status(200).json({
+        decision: 'handle',
+        confidence: 0.5,
+        reasoning: 'Could not parse model response.',
+        customer_response: rawResponse,
+      });
+    }
 
     return res.status(200).json({
       decision: parsed.decision,
